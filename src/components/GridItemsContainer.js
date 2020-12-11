@@ -54,18 +54,6 @@ export default function SimpleContainer(props) {
     </Grid>
   );
 
-  // const makeStarWarsGridItems = (
-  //   <Grid container>
-  //     {starWarsShips.starWarsShips.map((text, index) => (
-  //       <Grid item xs={12} xs={6}>
-  //         <StarWarsGridItem className={classes.paper} text={text}>
-  //           xs=12
-  //         </StarWarsGridItem>
-  //       </Grid>
-  //     ))}
-  //   </Grid>
-  // );
-
   const makeStarWarsGridItems = (
     <Grid container>
       {ships2.starWarsShips2.map((ship, index) => (
@@ -77,24 +65,6 @@ export default function SimpleContainer(props) {
       ))}
     </Grid>
   );
-  //
-  // const makeOtherGridItems = (
-  //   <Grid container>
-  //     {[
-  //       ["this is the text", "banana"],
-  //       [" this say something else", "cabbage"],
-  //       ["and yet a third", "ocelot"],
-  //       ["May the Fourth be with you", "Diamond"],
-  //       ["Revenge of the fifth", "badger"]
-  //     ].map((text, index) => (
-  //       <Grid item xs={12} xs={6}>
-  //         <GridItem className={classes.paper} text={text}>
-  //           xs=12
-  //         </GridItem>
-  //       </Grid>
-  //     ))}
-  //   </Grid>
-  // );
 
   return (
     <React.Fragment>
