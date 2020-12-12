@@ -26,7 +26,6 @@ const useStyles = makeStyles(theme => ({
 export default function SimpleContainer(props) {
   const classes = useStyles();
   console.log("value = ", props.value);
-  // console.log("ships = ", ships2);
 
   const makeGridItems = (
     <Grid container>
