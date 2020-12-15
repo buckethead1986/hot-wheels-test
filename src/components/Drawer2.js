@@ -224,6 +224,20 @@ export default function ResponsiveDrawer(props) {
             "TIE Fighter"
           ]}
         />
+        <DrawerList
+          handleDrawerData={props.handleDrawerData}
+          primary="Ship Type"
+          list={[
+            "Capital Ship",
+            "Walker",
+            "Speeder",
+            "Fighter",
+            "Imperial",
+            "Rebel",
+            "X-Wing",
+            "TIE Fighter"
+          ]}
+        />
 
         <Divider />
       </Drawer>
