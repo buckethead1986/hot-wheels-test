@@ -207,25 +207,6 @@ export default function ResponsiveDrawer(props) {
 
         <DrawerList
           handleDrawerData={props.handleDrawerData}
-          primary="Year"
-          list={["2016", "2017", "2018", "2019"]}
-        />
-        <DrawerList
-          handleDrawerData={props.handleDrawerData}
-          primary="Ship Type"
-          list={[
-            "Capital Ship",
-            "Walker",
-            "Speeder",
-            "Fighter",
-            "Imperial",
-            "Rebel",
-            "X-Wing",
-            "TIE Fighter"
-          ]}
-        />
-        <DrawerList
-          handleDrawerData={props.handleDrawerData}
           primary="Ship Type"
           list={[
             "Capital Ship",
