@@ -52,6 +52,18 @@ export default function SimpleContainer(props) {
         ))}
     </Grid>
   );
+  //
+  // const makeStarWarsGridItems = (
+  //   <Grid container>
+  //     {ships2.starWarsShips2.map((ship, index) => (
+  //       <Grid item xs={12} xs={6}>
+  //         <StarWarsGridItem className={classes.paper} ship={ship}>
+  //           xs=12
+  //         </StarWarsGridItem>
+  //       </Grid>
+  //     ))}
+  //   </Grid>
+  // );
 
   const makeStarWarsGridItems = (
     <Grid container>
