@@ -13,6 +13,7 @@ export default function Container() {
   const handleSearchbarData = searchbarData => {
     setValue(searchbarData != undefined ? searchbarData : "");
   };
+
   return (
     <div>
       <Drawer2

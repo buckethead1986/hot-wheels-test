@@ -3,7 +3,6 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import GridItem from "./GridItem.js";
 import StarWarsGridItem from "./StarWarsGridItem.js";
 import starWarsShips from "./Playground.js";
 import ships2 from "./StarWarsShips.js";
@@ -26,16 +25,6 @@ const useStyles = makeStyles(theme => ({
 export default function SimpleContainer(props) {
   const classes = useStyles();
   console.log("value = ", props.value);
-
-  const makeGridItems = (
-    <Grid container>
-      {[
-        ["this is the text", "first"],
-        [" this say something else", "second"],
-        ["and yet a third", "third"]
-      ].map((text, index) => <GridItem item xs={6} text={text} />)}
-    </Grid>
-  );
 
   const makeSelectedGridItem = (
     <Grid container>
